@@ -1,0 +1,16 @@
+@HostAddress = http://localhost:5066
+
+### request all tastings
+GET {{HostAddress}}/api/tastings
+Accept: application/json
+
+### create new tastings
+POST {{HostAddress}}/api/tastings
+Content-Type: application/json
+
+//sample:
+{
+  "whiskyName": "Ardbeg Uigeadail",
+  "notes": "Rauchig, süß, Speck und Sherry-Bombe.",
+  "score": 92
+}
