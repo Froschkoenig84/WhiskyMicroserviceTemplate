@@ -1,12 +1,17 @@
-# 🥃 WhiskyMicroserviceTemplate
-
-A high-fidelity architectural blueprint for Domain-Driven Design (DDD) using C# .NET 9. Engineered as a crystal-clear starting point for AI-assisted orchestration (Claude Code) and professional domain modeling. Pre-integrated with **PostgreSQL (Aiven Cloud)** to simulate real-world Persistence-Ignorance and EF-Core workflows.
-
 <div align="center">
   <img src="assets/images/whisky-readme-header.png?reload=true&v=1" alt="Whisky DDD Microservice Blueprint" width="100%">
 </div>
 
+# 🥃 WhiskyMicroserviceTemplate
+
+A high-fidelity architectural blueprint for Domain-Driven Design (DDD) using C# .NET 9. Engineered as a crystal-clear starting point for AI-assisted orchestration (Claude Code) and professional domain modeling. Pre-integrated with **PostgreSQL (Aiven Cloud)** to simulate real-world Persistence-Ignorance and EF-Core workflows.
+
+<br />
+
 ---
+
+<br />
+
 
 ## 🏛️ Project Anatomy
 
@@ -17,7 +22,11 @@ The solution is organized alphabetically, following the physical file structure 
 * **`Whisky.Tasting.Domain`**: The Pure Heart. Contains Entities, Value Objects, Aggregates, and Domain Events. Zero dependencies on external frameworks.
 * **`Whisky.Tasting.Infrastructure`**: The Technical Implementation. Defines EF-Core DBContext, Repository implementations, and manages the connection to the **Aiven PostgreSQL** cloud instance.
 
+<br />
+
 ---
+
+<br />
 
 ## ⚡ Tactical DDD & Feature Flow
 
@@ -25,6 +34,7 @@ This diagram visualizes how Tactical DDD objects are orchestrated across the lay
 
 <div align="center">
   <img src="assets/images/whisky-readme-ddd-features.png?reload=true&v=1" alt="Tactical DDD & Feature Flow Diagram" width="85%">
+  <br />
   <br />
 
 | Pattern | Responsibility | Layer |
@@ -36,7 +46,11 @@ This diagram visualizes how Tactical DDD objects are orchestrated across the lay
 
 </div>
 
+<br />
+
 ---
+
+<br />
 
 ## 🛠️ Infrastructure & Data Validation
 
@@ -46,7 +60,11 @@ The template provides an immediate, live data context to validate your domain lo
 * **Instant EF-Core Mapping Validation:** Immediately test your Domain-to-Database entity mappings.
 * **Persistence-Ignorance:** The Domain logic interacts only with interfaces, ensuring a clean separation from infrastructure.
 
+<br />
+
 ---
+
+<br />
 
 ## 🤖 AI-Ready Boilerplate
 
@@ -55,14 +73,16 @@ This repository is optimized for use with AI-coding agents like **Claude Code**.
 2.  **Generate New Services** that perfectly align with your established architecture and EF-Core schema.
 3.  **Scale with Consistency**, maintaining the Clean Architecture boundaries throughout the development lifecycle.
 
+<br />
+
 ---
 
-<img src="assets/images/mnicolai-readme-sealbatch.png?reload=true&v=1" align="right" width="120" alt="Michael Nicolai Seal">
-<br>
+<br />
+
+&nbsp;&nbsp;&nbsp;<a href="https://github.com/Froschkoenig84"><img src="assets/images/mnicolai-readme-sealbatch.png?reload=true" align="right" width="120" alt="Michael Nicolai Seal"></a><br>
 
 > *This is a streamlined architectural blueprint focusing on the pure essence of DDD. It serves as a high-fidelity reference for AI-driven service generation and professional domain modeling.*
 
 <div align="right">
   <a href="https://github.com/Froschkoenig84">by Froschkoenig84</a>
-</div>
-<br clear="right">
+</div><br clear="right">
